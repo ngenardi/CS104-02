@@ -6,7 +6,7 @@ while(NumberOfScores > Count):
     Count+=1
     SumOfScores += Score
     if(NumberOfScores > Count):
-        print("The average of scores so far is " + str(float(SumOfScores/Count)) + " with " + str(Count) + " of " + str(NumberOfScores) + " inputted.")
+        print("The average of scores so far is " + str(round(float(SumOfScores/Count),2)) + " with " + str(Count) + " of " + str(NumberOfScores) + " inputted.")
 
-AverageOfScores = float(SumOfScores/NumberOfScores)
+AverageOfScores = round(float(SumOfScores/NumberOfScores), 2)
 print("The final average of all " + str(NumberOfScores) + " scores inputted is " + str(AverageOfScores) + ".")
