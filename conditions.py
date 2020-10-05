@@ -1,5 +1,5 @@
 while True:
-    temp = int(input("Enter the temperature in degrees fahrenheit: "))
+    temp = int(input("Enter the temperature in degrees fahrenheit or enter \"999\" to end the program: "))
 
     if temp == 999:
         break
